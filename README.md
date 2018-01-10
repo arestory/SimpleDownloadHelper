@@ -1,5 +1,7 @@
 # SimpleDownloadHelper
 ## how to use 
+
+```java
 DownloadHelper.Builder builder = new DownloadHelper.Builder(this).title("下载通知")
                     .description("正在下载新版本V1.2.0")
                     .downloadUrl("http://download.sj.qq.com/upload/connAssitantDownload/upload/MobileAssistant_1.apk")
@@ -40,3 +42,4 @@ DownloadHelper.Builder builder = new DownloadHelper.Builder(this).title("下载�
             downloadHelper.start();
             //移除下载任务
             downloadHelper.deleteDownloadFile();
+```
