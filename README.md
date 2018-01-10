@@ -1,5 +1,5 @@
 # SimpleDownloadHelper
-## how to use 
+
 
 > 一直听说过Android自带的DownloadManager，只是拖延症发作，一直没有时间去研究研究，其实在很多项目开发中，都有一个功能是非常重要的,那就是应用的检查更新了！基于DownloadManager，可以做一个轻量级的下载器，将下载任务交给系统去执行，减轻自身APP的压力，何乐而不为呢？！
 
